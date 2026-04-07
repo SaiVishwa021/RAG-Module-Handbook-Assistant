@@ -56,7 +56,7 @@ ollama pull llama3.2      # Recommended (2GB, great quality)
 ollama pull llama3.2:1b   # Fast (1GB, lightweight)
 ```
 
-### 5. Index Your Module Handbook
+### 5. Index Your Module Handbook (only required for new PDFs; the current chroma_db is already populated)
 ```bash
 python rag.py ingest data/dsai.pdf
 ```
